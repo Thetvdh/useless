@@ -20,7 +20,7 @@ int bogoSearch(int *arr, int arrLen, int searchVal) {
 }
 
 
-int main() {
+int main(int argc, char** argv) {
 	
 	
 	int array[1000000];
@@ -31,7 +31,7 @@ int main() {
 		
 	}
 	
-	int location = bogoSearch(array, NELEMS(array), 150);
+	int location = bogoSearch(array, NELEMS(array), atoi(argv[1]));
 	
 	printf("Value found at position %d\n", location);
 	
