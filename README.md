@@ -4,7 +4,7 @@
 Useless is a repo for my useless code that I write for fun.
 
 
-#Contents:
+# Contents:
 
 ## Bogosearch
 - My spin on the infamous bogosort algorithm. It takes a number from the command line and finds it in an array
